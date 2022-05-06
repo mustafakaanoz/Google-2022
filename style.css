@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  color: #202124;
+}
+
+.nav {
+  margin: .9rem 1.1rem ;
+}
+
+.nav ul{
+  
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.nav ul li  {
+  list-style: none;
+  
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: rgba(0,0,0,.87);
+  font-size: 13px;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.nav .apps img{
+  width: 17px;
+  color: #5f6368;
+  opacity: 1;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+  cursor: pointer;
+}
+
+
+.nav .photo img{
+  height: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
